@@ -1,0 +1,20 @@
+@media (max-width:1200px){
+    .main-container{
+        width:95%;
+    }
+}
+
+@media (max-width:800px){
+    .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'nav-wrapper'
+            'left-column' 
+            'right-column'
+        ;
+    }
+
+    .right-column{
+        justify-content: center;
+    }
+}
